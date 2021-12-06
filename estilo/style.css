@@ -94,7 +94,6 @@ html{
 }
 
 .flex-container{
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     row-gap: 36px;
@@ -116,7 +115,7 @@ html{
 }
 
 .flex-container .row:hover{
-    transform: rotate(10deg) scale(1.2);
+    transform:scale(1.05);
 }
 
 .flex-container .row img{
@@ -134,7 +133,7 @@ html{
     background: var(--cor-preta);
 }
 
-@media (max-width:375px){
+@media (max-width:425px){
     .home .box{
         margin: 0 25px;
         text-align: center;
